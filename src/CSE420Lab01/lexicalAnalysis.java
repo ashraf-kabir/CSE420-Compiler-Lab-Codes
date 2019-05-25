@@ -7,6 +7,7 @@ import java.util.Iterator;
 import java.util.Scanner;
 
 public class lexicalAnalysis {
+
     public static void main(String[] args) throws FileNotFoundException {
         HashSet<String> keywords = new HashSet<String>();
         HashSet<String> math = new HashSet<String>();
@@ -15,6 +16,7 @@ public class lexicalAnalysis {
         HashSet<String> others = new HashSet<String>();
         HashSet<String> id = new HashSet<String>();
 
+        // taking input from file
         File f = new File("input.txt");
         Scanner sc = new Scanner(f);
         String line = "";
@@ -78,9 +80,9 @@ public class lexicalAnalysis {
                 keywords.add(line);
             }
 
-            //Finding others
-            else if (line.matches("[; | , | . | ( | ) | { | } | [ | ]]")) {
-                others.add(line);
+            //Finding numbers
+            else if (line.matches("[0-9]*[.0-9]?[0-9]*")) {
+                num.add(line);
             }
 
             //Finding math operators
@@ -93,9 +95,9 @@ public class lexicalAnalysis {
                 log.add(line);
             }
 
-            //Finding numbers
-            else if (line.matches("[0-9]*[.0-9]?[0-9]*")) {
-                num.add(line);
+            //Finding others
+            else if (line.matches("[; | , | . | ( | ) | { | } | [ | ]]")) {
+                others.add(line);
             }
 
             //Finding identifiers
@@ -112,7 +114,7 @@ public class lexicalAnalysis {
         System.out.println("");
 
         itr = id.iterator();
-        System.out.print("identifiers: ");
+        System.out.print("Identifiers: ");
         while (itr.hasNext()) {
             System.out.print(itr.next() + " ");
         }
@@ -146,4 +148,5 @@ public class lexicalAnalysis {
         }
         System.out.println("");
     }
+
 }
