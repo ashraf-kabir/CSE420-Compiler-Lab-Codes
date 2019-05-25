@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a7ed1a8-af12-4155-a086-ed5936bf788a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/CSE420Lab01/lexicalAnalysis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSE420Lab01/lexicalAnalysis.java" afterDir="false" />
-    </list>
+    <list default="true" id="4a7ed1a8-af12-4155-a086-ed5936bf788a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,10 +15,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/CSE420Lab01/lexicalAnalysis.java">
+        <entry file="file://$PROJECT_DIR$/src/test01/lab01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2002">
-              <caret line="103" column="18" lean-forward="true" selection-start-line="103" selection-start-column="18" selection-end-line="103" selection-end-column="18" />
+            <state relative-caret-position="5038">
+              <caret line="238" column="37" lean-forward="true" selection-start-line="238" selection-start-column="37" selection-end-line="238" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -32,7 +30,16 @@
         <entry file="file://$PROJECT_DIR$/input.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <caret line="14" lean-forward="true" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/task1.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -68,13 +75,17 @@
         <option value="$PROJECT_DIR$/src/CSE420Lab01/task05.java" />
         <option value="$PROJECT_DIR$/src/CSE420Lab01/task02.java" />
         <option value="$PROJECT_DIR$/src/CSE420Lab01/lexicalAnalysis.java" />
+        <option value="$PROJECT_DIR$/src/test01/lab01.java" />
+        <option value="$PROJECT_DIR$/input.txt" />
+        <option value="$PROJECT_DIR$/src/task1.txt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="x" value="211" />
+    <option name="y" value="137" />
+    <option name="width" value="1602" />
+    <option name="height" value="883" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -94,12 +105,6 @@
               <item name="CSE420-Lab" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="CSE420-Lab" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSE420-Lab" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="CSE420Lab01" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -118,6 +123,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workspaces\CSE420-Lab\src" />
+      <recent name="E:\workspaces\CSE420-Lab\src\test01" />
       <recent name="E:\workspaces\CSE420-Lab" />
     </key>
   </component>
@@ -133,13 +140,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.lexicalAnalysis">
-    <configuration name="lexicalAnalysis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CSE420Lab01.lexicalAnalysis" />
+  <component name="RunManager" selected="Application.lab01">
+    <configuration name="lab01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test01.lab01" />
       <module name="CSE420-Lab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CSE420Lab01.*" />
+          <option name="PATTERN" value="test01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,8 +154,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="task02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CSE420Lab01.task02" />
+    <configuration name="lexicalAnalysis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CSE420Lab01.lexicalAnalysis" />
       <module name="CSE420-Lab" />
       <extension name="coverage">
         <pattern>
@@ -201,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.lab01" />
         <item itemvalue="Application.lexicalAnalysis" />
         <item itemvalue="Application.task05" />
         <item itemvalue="Application.task04" />
         <item itemvalue="Application.task03" />
-        <item itemvalue="Application.task02" />
       </list>
     </recent_temporary>
   </component>
@@ -224,12 +231,12 @@
       <workItem from="1557682013295" duration="1584000" />
       <workItem from="1558023611531" duration="1389000" />
       <workItem from="1558117097810" duration="2841000" />
-      <workItem from="1558799343289" duration="1125000" />
+      <workItem from="1558799343289" duration="2058000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7278000" />
+    <option name="totallyTimeSpent" value="8211000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -342,17 +349,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CSE420Lab01/lexicalAnalysis.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2002">
           <caret line="103" column="18" lean-forward="true" selection-start-line="103" selection-start-column="18" selection-end-line="103" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" lean-forward="true" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/task1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test01/lab01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5038">
+          <caret line="238" column="37" lean-forward="true" selection-start-line="238" selection-start-column="37" selection-end-line="238" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
