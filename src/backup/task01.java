@@ -1,9 +1,12 @@
-package CSE420Lab01;
+package backup;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.HashSet;
 import java.util.Set;
-import java.util.regex.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class task01 {
 
@@ -24,6 +27,8 @@ public class task01 {
      */
 
     public static Set<String> keySet = new HashSet<String>();
+    //public static Set<String> stringSet = new HashSet<String>();
+    //public static Set<String> charSet = new HashSet<String>();
     public static Set<String> mathOpSet = new HashSet<String>();
     public static Set<String> compOpSet = new HashSet<String>();
     public static Set<String> numSet = new HashSet<String>();
@@ -107,7 +112,47 @@ public class task01 {
         return ret;
     }
 
-    // numeric value check
+    /*
+    // character check
+    public static boolean charChecker(String str) {
+        String theRegex = charRegx;
+        boolean ret = false;
+
+        Pattern checkRegex = Pattern.compile(theRegex);
+        Matcher regexMatcher = checkRegex.matcher(str);
+        while (regexMatcher.find()) {
+            if (regexMatcher.group().length() != 0) {
+                Setting(regexMatcher.group().trim(), charSet);
+                ret = true;
+            }
+        }
+        return ret;
+    }
+     */
+
+
+    /*
+    // string check
+    public static boolean stringChecker(String str) {
+        String theRegex = stringRegx;
+        boolean ret = false;
+
+        Pattern checkRegex = Pattern.compile(theRegex);
+        Matcher regexMatcher = checkRegex.matcher(str);
+        while (regexMatcher.find()) {
+            if (regexMatcher.group().length() != 0) {
+                String strr = regexMatcher.group().trim();
+                strr = strr.replaceAll(";", "");
+                Setting(strr, stringSet);
+                ret = true;
+            }
+        }
+        return ret;
+    }
+     */
+
+
+    // numeric check
     public static boolean numericChecker(String str) {
         String theRegex = numericValuesRegx;
         boolean ret = false;
@@ -124,7 +169,7 @@ public class task01 {
         return ret;
     }
 
-    // identifier check
+    // value check
     public static boolean identifierWithValueChecker(String str) {
         String theRegex = idWithValueRegx;
         boolean ret = false;
@@ -176,6 +221,16 @@ public class task01 {
         return ret;
     }
 
+    public static String parserForNumeric(String str) {
+        for (String ss : idSet) {
+            str = str.replaceAll(ss, "");
+        }
+        str = str.replaceAll(charRegx, "");
+        str = str.replaceAll(stringRegx, "");
+
+        return str;
+    }
+
     // checker function which takes string from buffer
     // then pass it to different functions of checker
     public static void checker(String str) {
@@ -185,6 +240,9 @@ public class task01 {
         othersChecker(str);
         identifierWithValueChecker(str);
         identifiercommaChecker(str);
+        //stringChecker(str);
+        //charChecker(str);
+        str = parserForNumeric(str);
         numericChecker(str);
     }
 
@@ -206,9 +264,11 @@ public class task01 {
 
     // main method
     public static void main(String[] args) {
-        readFromFile("task1");
+        readFromFile("input");
         printer("Keywords", keySet);
         printer("Identifiers", idSet);
+        //printer("String values", stringSet);
+        //printer("Character values", charSet);
         printer("Math Operators", mathOpSet);
         printer("Logical Operators", compOpSet);
         printer("Numerical Values", numSet);

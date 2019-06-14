@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a7ed1a8-af12-4155-a086-ed5936bf788a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/backup/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backup/task01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSE420-Lab/CSE420Lab01/task01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CSE420-Lab/CSE420Lab01/task01.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CSE420Lab01/task01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSE420Lab01/task01.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CSE420Lab01/task01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="187">
+              <caret line="109" column="20" selection-start-line="109" selection-start-column="20" selection-end-line="109" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -29,7 +33,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CSE420Lab01/input.txt">
+        <entry file="file://$PROJECT_DIR$/src/CSE420Lab01/task1.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="294">
               <caret line="14" selection-start-line="14" selection-end-line="14" />
@@ -38,7 +42,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CSE420Lab01/task1.txt">
+        <entry file="file://$PROJECT_DIR$/src/CSE420Lab01/input.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="294">
               <caret line="14" selection-start-line="14" selection-end-line="14" />
@@ -68,6 +72,9 @@
       <find>perserForneumeric</find>
       <find>idset</find>
       <find>stringSet</find>
+      <find>stringRegx</find>
+      <find>charRegx</find>
+      <find>parserForNumeric</find>
     </findStrings>
     <replaceStrings>
       <replace>Log</replace>
@@ -141,13 +148,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/CSE420Lab02" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/backup" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspaces\CSE420-Lab\src\backup" />
       <recent name="E:\workspaces\CSE420-Lab\src\CSE420Lab02" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -267,18 +275,18 @@
       <workItem from="1560483509080" duration="1102000" />
       <workItem from="1560487108157" duration="108000" />
       <workItem from="1560487249719" duration="2251000" />
-      <workItem from="1560493768116" duration="3267000" />
+      <workItem from="1560493768116" duration="4034000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15940000" />
+    <option name="totallyTimeSpent" value="16707000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1359275" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1359275" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -287,7 +295,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.2979415" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.2979415" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -363,16 +371,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test01/lab01b.java" />
-    <entry file="file://$PROJECT_DIR$/src/CSE420Lab01/lexicalAnalysis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CSE420Lab01/task01b.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -413,6 +411,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/backup/input.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/backup/task01.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CSE420Lab01/lexicalAnalysis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/CSE420Lab01/input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -429,8 +443,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CSE420Lab01/task01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="187">
+          <caret line="109" column="20" selection-start-line="109" selection-start-column="20" selection-end-line="109" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
