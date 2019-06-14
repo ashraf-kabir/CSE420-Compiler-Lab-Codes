@@ -17,6 +17,12 @@ public class lab01 {
     public static final String compOpRegx = "(>=)|(==)|(<=)|<|>";
     public static final String OtherRegx = "[\\{\\}\\(\\)\\[\\]\\;]";
 
+    /*
+    HashSet extends AbstractSet and implements the Set interface. It creates a collection that uses a hash table for storage.
+    A hash table stores information by using a mechanism called hashing. In hashing, the informational content of a key is used to determine a unique value, called its hash code.
+    The hash code is then used as the index at which the data associated with the key is stored. The transformation of the key into its hash code is performed automatically.
+     */
+
     public static Set<String> keySet = new HashSet<String>();
     public static Set<String> stringSet = new HashSet<String>();
     public static Set<String> charSet = new HashSet<String>();
@@ -25,6 +31,11 @@ public class lab01 {
     public static Set<String> numSet = new HashSet<String>();
     public static Set<String> otherSet = new HashSet<String>();
     public static Set<String> idSet = new HashSet<String>();
+
+
+    /*
+    parsing a string of characters is analyzing this string to find tokens, or items and then create a structure from the result.
+    */
 
     public static String idParserforValue(String str) {
         str = str.replaceAll("(int|float|String|double|byte|char)", "").replaceAll("\\=", "");
@@ -97,7 +108,7 @@ public class lab01 {
         }
         return ret;
     }
-    
+
     // character check
     public static boolean charChecker(String str) {
         String theRegex = charRegx;
@@ -148,7 +159,7 @@ public class lab01 {
         }
         return ret;
     }
-    
+
     // value check
     public static boolean identifierWithValueChecker(String str) {
         String theRegex = idWithValueRegx;
@@ -210,7 +221,7 @@ public class lab01 {
 
         return str;
     }
-    
+
     // checker function which takes string from buffer
     // then pass it to different functions of checker
     public static void checker(String str) {
@@ -256,6 +267,3 @@ public class lab01 {
     }
 
 }
-/*
-parsing a string of characters is analyzing this string to find tokens, or items and then create a structure from the result.
- */
