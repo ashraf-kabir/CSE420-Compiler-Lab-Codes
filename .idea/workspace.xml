@@ -121,7 +121,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.lab01">
+  <component name="RunManager" selected="Application.lexicalAnalysis">
     <configuration name="lab01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test01.lab01" />
       <module name="CSE420-Lab" />
@@ -189,9 +189,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.lexicalAnalysis" />
         <item itemvalue="Application.lab01" />
         <item itemvalue="Application.lab02" />
-        <item itemvalue="Application.lexicalAnalysis" />
         <item itemvalue="Application.task05" />
         <item itemvalue="Application.task04" />
       </list>

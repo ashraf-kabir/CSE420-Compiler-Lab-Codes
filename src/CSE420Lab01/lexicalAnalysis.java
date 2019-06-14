@@ -17,7 +17,7 @@ public class lexicalAnalysis {
         HashSet<String> id = new HashSet<String>();
 
         // taking input from file
-        File f = new File("input.txt");
+        File f = new File("E:\\workspaces\\CSE420-Lab\\src\\CSE420Lab01\\input.txt");
         Scanner sc = new Scanner(f);
         String line = "";
         while (sc.hasNext()) {
