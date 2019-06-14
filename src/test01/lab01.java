@@ -7,7 +7,7 @@ import java.util.regex.*;
 
 public class lab01 {
 
-    public static final String idWithComasRegx = "^(int|float|String|double|byte|char)[ ]+[^\\d\\s](([{[\\w$_]*]*)*)(,?[ ]*(([{[\\w$_]*]*)*))*;";
+    public static final String idWithCommaRegx = "^(int|float|String|double|byte|char)[ ]+[^\\d\\s](([{[\\w$_]*]*)*)(,?[ ]*(([{[\\w$_]*]*)*))*;";
     public static final String idWithValueRegx = "(char|int|double|String|byte)[ ]+[^\\d\\s](([{[\\w$_]*]*)*)[ ]*=[ ]*([.]*)";
     public static final String numericValuesRegx = "([-]?([\\d]*[\\.]?[\\d]+))";
     public static final String stringRegx = "\"[.]*\"";
@@ -22,7 +22,7 @@ public class lab01 {
     public static Set<String> stringSet = new HashSet<String>();
     public static Set<String> charSet = new HashSet<String>();
     public static Set<String> mathOpSet = new HashSet<String>();
-    public static Set<String> conOpSet = new HashSet<String>();
+    public static Set<String> compOpSet = new HashSet<String>();
     public static Set<String> numSet = new HashSet<String>();
     public static Set<String> otherSet = new HashSet<String>();
     public static Set<String> idSet = new HashSet<String>();
@@ -75,7 +75,7 @@ public class lab01 {
         Matcher regexMatcher = checkRegex.matcher(str);
         while (regexMatcher.find()) {
             if (regexMatcher.group().length() != 0) {
-                Setting(regexMatcher.group().trim(), conOpSet);
+                Setting(regexMatcher.group().trim(), compOpSet);
                 ret = true;
             }
         }
@@ -169,7 +169,7 @@ public class lab01 {
 
     // identify comma
     public static boolean identifiercommaChecker(String str) {
-        String theRegex = idWithComasRegx;
+        String theRegex = idWithCommaRegx;
         boolean ret = false;
 
         Pattern checkRegex = Pattern.compile(theRegex);
@@ -250,7 +250,7 @@ public class lab01 {
         printer("String values", stringSet);
         printer("Character values", charSet);
         printer("Mathematical operators", mathOpSet);
-        printer("Logical operators", conOpSet);
+        printer("Logical operators", compOpSet);
         printer("Numerical values", numSet);
         printer("Others", otherSet);
     }
