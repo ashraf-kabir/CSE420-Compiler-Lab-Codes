@@ -201,7 +201,7 @@ public class lab01 {
         return ret;
     }
 
-    public static String perserForneumeric(String str) {
+    public static String parserForNumeric(String str) {
         for (String ss : idSet) {
             str = str.replaceAll(ss, "");
         }
@@ -222,7 +222,7 @@ public class lab01 {
         identifiercommaChecker(str);
         stringChecker(str);
         charChecker(str);
-        str = perserForneumeric(str);
+        str = parserForNumeric(str);
         numericChecker(str);
     }
 

@@ -19,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test01/lab01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="216" column="21" selection-start-line="216" selection-start-column="21" selection-end-line="216" selection-end-column="21" />
+            <state relative-caret-position="4704">
+              <caret line="224" column="31" selection-start-line="224" selection-start-column="31" selection-end-line="224" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1032#1040#0" expanded="true" />
@@ -66,10 +66,14 @@
       <find>comp</find>
       <find>conOpChecker</find>
       <find>printer</find>
+      <find>MathOpChecker</find>
+      <find>perserForneumeric</find>
     </findStrings>
     <replaceStrings>
       <replace>Log</replace>
       <replace>compOpRegx</replace>
+      <replace>mathOpChecker</replace>
+      <replace>parserForNumeric</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -93,7 +97,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="463" />
     <option name="y" value="94" />
     <option name="width" value="1363" />
@@ -269,12 +273,12 @@
       <workItem from="1560483509080" duration="1102000" />
       <workItem from="1560487108157" duration="108000" />
       <workItem from="1560487249719" duration="2251000" />
-      <workItem from="1560493768116" duration="887000" />
+      <workItem from="1560493768116" duration="1522000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13560000" />
+    <option name="totallyTimeSpent" value="14195000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -431,8 +435,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test01/lab01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="216" column="21" selection-start-line="216" selection-start-column="21" selection-end-line="216" selection-end-column="21" />
+        <state relative-caret-position="4704">
+          <caret line="224" column="31" selection-start-line="224" selection-start-column="31" selection-end-line="224" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1032#1040#0" expanded="true" />
