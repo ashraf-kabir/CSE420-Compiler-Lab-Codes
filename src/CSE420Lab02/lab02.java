@@ -8,7 +8,7 @@ public class lab02 {
 
     public static void main(String[] args) throws FileNotFoundException {
 
-        File f = new File("E:\\workspaces\\CSE420-Lab\\src\\CSE420Lab02\\input_lab02.txt");
+        File f = new File("E:\\workspaces\\CSE420-Lab\\src\\CSE420Lab02\\input.txt");
         Scanner sc = new Scanner(f);
         String s = "";
 
