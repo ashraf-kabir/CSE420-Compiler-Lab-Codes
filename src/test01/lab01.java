@@ -51,7 +51,7 @@ public class lab01 {
     }
 
     // others check
-    public static boolean OthersChecker(String str) {
+    public static boolean othersChecker(String str) {
         String theRegex = OtherRegx;
         boolean ret = false;
 
@@ -83,7 +83,7 @@ public class lab01 {
     }
 
     // math operator check
-    public static boolean MathOpChecker(String str) {
+    public static boolean mathOpChecker(String str) {
         String theRegex = mathOpRegx;
         boolean ret = false;
 
@@ -99,7 +99,7 @@ public class lab01 {
     }
     
     // character check
-    public static boolean CharChecker(String str) {
+    public static boolean charChecker(String str) {
         String theRegex = charRegx;
         boolean ret = false;
 
@@ -115,7 +115,7 @@ public class lab01 {
     }
 
     // string check
-    public static boolean StringChecker(String str) {
+    public static boolean stringChecker(String str) {
         String theRegex = stringRegx;
         boolean ret = false;
 
@@ -214,13 +214,13 @@ public class lab01 {
     // checker
     public static void checker(String str) {
         keywordChecker(str);
-        MathOpChecker(str);
+        mathOpChecker(str);
         compOpChecker(str);
-        OthersChecker(str);
+        othersChecker(str);
         identifierWithValueChecker(str);
         identifiercommaChecker(str);
-        StringChecker(str);
-        CharChecker(str);
+        stringChecker(str);
+        charChecker(str);
         str = perserForneumeric(str);
         numericChecker(str);
     }
