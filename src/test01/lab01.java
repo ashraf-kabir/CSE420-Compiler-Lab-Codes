@@ -5,7 +5,6 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.regex.*;
 
-
 public class lab01 {
 
     public static final String idWithComasRegx = "^(int|float|String|double|byte|char)[ ]+[^\\d\\s](([{[\\w$_]*]*)*)(,?[ ]*(([{[\\w$_]*]*)*))*;";
@@ -197,7 +196,6 @@ public class lab01 {
     }
 
     public static String perserForneumeric(String str) {
-
         for (String ss : idSet) {
             str = str.replaceAll(ss, "");
         }
@@ -219,7 +217,6 @@ public class lab01 {
 
         str = perserForneumeric(str);
         numericChecker(str);
-
     }
 
     public static void readFromFile(String fileName) {
