@@ -20,8 +20,7 @@ public class lab02 {
 
             String s2 = s.substring(4);
 
-            if (s.length() > 8 && s.startsWith("www.") && s2.contains(".")) //Conditions for checking valid web address
-            {
+            if (s.length() > 8 && s.startsWith("www.") && s2.contains(".")) {          //Conditions for checking valid web address
                 for (int i = 4; i < s.length(); i++) {
                     int t = (int) (s.charAt(i));
 
@@ -33,8 +32,7 @@ public class lab02 {
                         pCount++;
                         System.out.println(pCount + ": Invalid web address!");
                         break;
-                    } else if ((t > 96 && t < 123) || (t > 47 && t < 58))    //Letter and number
-                    {
+                    } else if ((t > 96 && t < 123) || (t > 47 && t < 58)) {       //Letter and number
                         continue;
                     } else if (t == 46) {
                         if (p == 46) {
@@ -60,8 +58,7 @@ public class lab02 {
                         break;
                     }
                 }
-            } else if (s.contains("@") && s.contains("."))  //Conditions for checking valid mail id
-            {
+            } else if (s.contains("@") && s.contains(".")) {          //Conditions for checking valid mail id
                 if ((n > 96 && n < 123)) {
                     for (int i = 0; i < s.length(); i++) {
                         int t = (int) (s.charAt(i));
@@ -70,8 +67,7 @@ public class lab02 {
                             p = (int) (s.charAt(i + 1));
                         }
 
-                        if ((t > 96 && t < 123) || (t > 47 && t < 58) || (t == 46))  //Letter, number and dot
-                        {
+                        if ((t > 96 && t < 123) || (t > 47 && t < 58) || (t == 46)) {  //Letter, number and dot
                             continue;
                         } else if (t == 64) {
                             if (p == 46 || p == 64) {
@@ -94,8 +90,7 @@ public class lab02 {
                     pCount++;
                     System.out.println(pCount + ": Invalid email id!");
                 }
-            } else if (s.endsWith(".com"))  //Conditions for checking invalid web address
-            {
+            } else if (s.endsWith(".com")) {              //Conditions for checking invalid web address
                 int count = 0;
                 for (int i = 0; i < s.length(); i++) {
                     int t = (int) (s.charAt(i));
