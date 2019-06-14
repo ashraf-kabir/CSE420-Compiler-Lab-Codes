@@ -3,7 +3,7 @@ package CSE420Lab01;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class task05 {
+public class task05e {
     public static void main(String[] args) {
 
         String scheck = "int a , b , c ;\n" +
