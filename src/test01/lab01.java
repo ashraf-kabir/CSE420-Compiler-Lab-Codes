@@ -1,7 +1,6 @@
 package test01;
 
 import java.io.*;
-import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.regex.*;
@@ -246,7 +245,7 @@ public class lab01 {
         String line;
 
         try {
-            br = new BufferedReader(new FileReader("src\\" + fileName + ".txt"));
+            br = new BufferedReader(new FileReader("src\\test01\\" + fileName + ".txt"));
             while ((line = br.readLine()) != null) {
                 checker(line);
             }
