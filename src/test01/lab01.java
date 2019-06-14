@@ -211,7 +211,8 @@ public class lab01 {
         return str;
     }
     
-    // checker
+    // checker function which takes string from buffer
+    // then pass it to different functions of checker
     public static void checker(String str) {
         keywordChecker(str);
         mathOpChecker(str);
