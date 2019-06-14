@@ -24,7 +24,7 @@ public class lab01 {
     public static Set<String> charSet = new HashSet<String>();
     public static Set<String> mathOpSet = new HashSet<String>();
     public static Set<String> conOpSet = new HashSet<String>();
-    public static Set<String> numset = new HashSet<String>();
+    public static Set<String> numSet = new HashSet<String>();
     public static Set<String> otherSet = new HashSet<String>();
     public static Set<String> idSet = new HashSet<String>();
 
@@ -63,9 +63,7 @@ public class lab01 {
                 ret = true;
             }
         }
-
         return ret;
-
     }
 
     public static boolean conOpChecker(String str) {
@@ -80,9 +78,7 @@ public class lab01 {
                 ret = true;
             }
         }
-
         return ret;
-
     }
 
     public static boolean MathOpChecker(String str) {
@@ -97,9 +93,7 @@ public class lab01 {
                 ret = true;
             }
         }
-
         return ret;
-
     }
 
 
@@ -115,9 +109,7 @@ public class lab01 {
                 ret = true;
             }
         }
-
         return ret;
-
     }
 
 
@@ -135,9 +127,7 @@ public class lab01 {
                 ret = true;
             }
         }
-
         return ret;
-
     }
 
     public static boolean numericChecker(String str) {
@@ -149,13 +139,11 @@ public class lab01 {
         while (regexMatcher.find()) {
             if (regexMatcher.group().length() != 0) {
                 //System.out.println(regexMatcher.group().trim());
-                Setting(regexMatcher.group().trim(), numset);
+                Setting(regexMatcher.group().trim(), numSet);
                 ret = true;
             }
         }
-
         return ret;
-
     }
 
     public static boolean identifierWithValueChecker(String str) {
@@ -172,9 +160,7 @@ public class lab01 {
                 ret = true;
             }
         }
-
         return ret;
-
     }
 
 
@@ -192,9 +178,7 @@ public class lab01 {
                 ret = true;
             }
         }
-
         return ret;
-
     }
 
     public static boolean keywordChecker(String str) {
@@ -209,9 +193,7 @@ public class lab01 {
                 ret = true;
             }
         }
-
         return ret;
-
     }
 
     public static String perserForneumeric(String str) {
@@ -264,7 +246,7 @@ public class lab01 {
         printer("Character values", charSet);
         printer("Mathematical operators", mathOpSet);
         printer("Logical operators", conOpSet);
-        printer("Numerical values", numset);
+        printer("Numerical values", numSet);
         printer("Others", otherSet);
     }
 

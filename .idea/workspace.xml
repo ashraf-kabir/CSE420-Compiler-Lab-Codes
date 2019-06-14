@@ -44,6 +44,8 @@
     <findStrings>
       <find>Math</find>
       <find>read</find>
+      <find>neumerset</find>
+      <find>neumericChecker</find>
     </findStrings>
     <replaceStrings>
       <replace>Log</replace>
