@@ -10,7 +10,7 @@ public class lab02 {
         Scanner sc = new Scanner(f);
         String s = "";
 
-        int pCount = 0;  // For printing purpose
+        int pCount = 0;  // For printing
 
         while (sc.hasNext()) {
             s = sc.next().toLowerCase();
