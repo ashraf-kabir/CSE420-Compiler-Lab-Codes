@@ -24,8 +24,8 @@ public class task01 {
      */
 
     public static Set<String> keySet = new HashSet<String>();
-    public static Set<String> stringSet = new HashSet<String>();
-    public static Set<String> charSet = new HashSet<String>();
+    //public static Set<String> stringSet = new HashSet<String>();
+    //public static Set<String> charSet = new HashSet<String>();
     public static Set<String> mathOpSet = new HashSet<String>();
     public static Set<String> compOpSet = new HashSet<String>();
     public static Set<String> numSet = new HashSet<String>();
@@ -109,6 +109,7 @@ public class task01 {
         return ret;
     }
 
+    /*
     // character check
     public static boolean charChecker(String str) {
         String theRegex = charRegx;
@@ -124,7 +125,10 @@ public class task01 {
         }
         return ret;
     }
+     */
 
+
+    /*
     // string check
     public static boolean stringChecker(String str) {
         String theRegex = stringRegx;
@@ -142,6 +146,8 @@ public class task01 {
         }
         return ret;
     }
+     */
+
 
     // numeric check
     public static boolean numericChecker(String str) {
@@ -231,8 +237,8 @@ public class task01 {
         othersChecker(str);
         identifierWithValueChecker(str);
         identifiercommaChecker(str);
-        stringChecker(str);
-        charChecker(str);
+        //stringChecker(str);
+        //charChecker(str);
         str = parserForNumeric(str);
         numericChecker(str);
     }
@@ -255,14 +261,14 @@ public class task01 {
 
     // main method
     public static void main(String[] args) {
-        readFromFile("task1");
-        printer("KeyWords", keySet);
+        readFromFile("input");
+        printer("Keywords", keySet);
         printer("Identifiers", idSet);
-        printer("String values", stringSet);
-        printer("Character values", charSet);
-        printer("Mathematical operators", mathOpSet);
-        printer("Logical operators", compOpSet);
-        printer("Numerical values", numSet);
+        //printer("String values", stringSet);
+        //printer("Character values", charSet);
+        printer("Math Operators", mathOpSet);
+        printer("Logical Operators", compOpSet);
+        printer("Numerical Values", numSet);
         printer("Others", otherSet);
     }
 
