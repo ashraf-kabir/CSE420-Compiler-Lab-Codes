@@ -24,7 +24,7 @@ public class lab01 {
     public static Set<String> charSet = new HashSet<String>();
     public static Set<String> mathOpSet = new HashSet<String>();
     public static Set<String> conOpSet = new HashSet<String>();
-    public static Set<String> neumerSet = new HashSet<String>();
+    public static Set<String> numset = new HashSet<String>();
     public static Set<String> otherSet = new HashSet<String>();
     public static Set<String> idSet = new HashSet<String>();
 
@@ -140,7 +140,7 @@ public class lab01 {
 
     }
 
-    public static boolean neumericChecker(String str) {
+    public static boolean numericChecker(String str) {
         String theRegex = numericValuesRegx;
         boolean ret = false;
 
@@ -149,7 +149,7 @@ public class lab01 {
         while (regexMatcher.find()) {
             if (regexMatcher.group().length() != 0) {
                 //System.out.println(regexMatcher.group().trim());
-                Setting(regexMatcher.group().trim(), neumerSet);
+                Setting(regexMatcher.group().trim(), numset);
                 ret = true;
             }
         }
@@ -236,7 +236,7 @@ public class lab01 {
         CharChecker(str);
 
         str = perserForneumeric(str);
-        neumericChecker(str);
+        numericChecker(str);
 
     }
 
@@ -264,7 +264,7 @@ public class lab01 {
         printer("Character values", charSet);
         printer("Mathematical operators", mathOpSet);
         printer("Logical operators", conOpSet);
-        printer("Numerical values", neumerSet);
+        printer("Numerical values", numset);
         printer("Others", otherSet);
     }
 
