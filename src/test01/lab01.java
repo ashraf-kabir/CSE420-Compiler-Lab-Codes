@@ -221,7 +221,6 @@ public class lab01 {
         identifiercommaChecker(str);
         StringChecker(str);
         CharChecker(str);
-
         str = perserForneumeric(str);
         numericChecker(str);
     }
