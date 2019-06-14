@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a7ed1a8-af12-4155-a086-ed5936bf788a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test01/lab01b.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSE420-Lab/test01/lab01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CSE420-Lab/test01/lab01.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test01/lab01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test01/lab01.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,13 +22,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test01/lab01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="4431">
+              <caret line="220" column="36" lean-forward="true" selection-start-line="220" selection-start-column="36" selection-end-line="220" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1351#1359#0" expanded="true" />
-                <element signature="e#1415#1423#0" expanded="true" />
-                <element signature="e#1476#1484#0" expanded="true" />
+                <element signature="e#1026#1034#0" expanded="true" />
+                <element signature="e#1091#1099#0" expanded="true" />
+                <element signature="e#1154#1162#0" expanded="true" />
+                <element signature="e#1219#1227#0" expanded="true" />
+                <element signature="e#1283#1291#0" expanded="true" />
+                <element signature="e#1345#1353#0" expanded="true" />
+                <element signature="e#1409#1417#0" expanded="true" />
+                <element signature="e#1470#1478#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -46,9 +54,12 @@
       <find>read</find>
       <find>neumerset</find>
       <find>neumericChecker</find>
+      <find>comp</find>
+      <find>conOpChecker</find>
     </findStrings>
     <replaceStrings>
       <replace>Log</replace>
+      <replace>compOpRegx</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -73,12 +84,14 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="91" />
-    <option name="y" value="53" />
+    <option name="x" value="688" />
+    <option name="y" value="146" />
     <option name="width" value="1363" />
     <option name="height" value="759" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -148,7 +161,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.lab01">
+  <component name="RunManager" selected="Application.lexicalAnalysis">
     <configuration name="lab01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test01.lab01" />
       <module name="CSE420-Lab" />
@@ -216,8 +229,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.lab01" />
         <item itemvalue="Application.lexicalAnalysis" />
+        <item itemvalue="Application.lab01" />
         <item itemvalue="Application.lab02" />
         <item itemvalue="Application.task05" />
         <item itemvalue="Application.task04" />
@@ -245,12 +258,12 @@
       <workItem from="1560481309753" duration="48000" />
       <workItem from="1560483509080" duration="1102000" />
       <workItem from="1560487108157" duration="108000" />
-      <workItem from="1560487249719" duration="720000" />
+      <workItem from="1560487249719" duration="2067000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11142000" />
+    <option name="totallyTimeSpent" value="12489000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -394,10 +407,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test01/lab01b.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/CSE420Lab01/lexicalAnalysis.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="65" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
+        <state relative-caret-position="-6">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -406,13 +426,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test01/lab01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="4431">
+          <caret line="220" column="36" lean-forward="true" selection-start-line="220" selection-start-column="36" selection-end-line="220" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1351#1359#0" expanded="true" />
-            <element signature="e#1415#1423#0" expanded="true" />
-            <element signature="e#1476#1484#0" expanded="true" />
+            <element signature="e#1026#1034#0" expanded="true" />
+            <element signature="e#1091#1099#0" expanded="true" />
+            <element signature="e#1154#1162#0" expanded="true" />
+            <element signature="e#1219#1227#0" expanded="true" />
+            <element signature="e#1283#1291#0" expanded="true" />
+            <element signature="e#1345#1353#0" expanded="true" />
+            <element signature="e#1409#1417#0" expanded="true" />
+            <element signature="e#1470#1478#0" expanded="true" />
           </folding>
         </state>
       </provider>

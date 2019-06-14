@@ -8,13 +8,13 @@ import java.util.regex.*;
 public class lab01 {
 
     public static final String idWithComasRegx = "^(int|float|String|double|byte|char)[ ]+[^\\d\\s](([{[\\w$_]*]*)*)(,?[ ]*(([{[\\w$_]*]*)*))*;";
-    public static final String idwithValueRegx = "(char|int|double|String|byte)[ ]+[^\\d\\s](([{[\\w$_]*]*)*)[ ]*=[ ]*([.]*)";
+    public static final String idWithValueRegx = "(char|int|double|String|byte)[ ]+[^\\d\\s](([{[\\w$_]*]*)*)[ ]*=[ ]*([.]*)";
     public static final String numericValuesRegx = "([-]?([\\d]*[\\.]?[\\d]+))";
     public static final String stringRegx = "\"[.]*\"";
     public static final String charRegx = "'[\\w\\d\\s\\S.]'";
     public static final String keywordsRegx = "(byte|short|int|float|double|long|char|boolean|String|if|else|else if|for|public|static|void|main)";
     public static final String mathOpRegx = "(\\*)|(\\+\\+)|\\/|\\%|(\\-\\-)|\\-|\\=|\\+";
-    public static final String conOpRegx = "(>=)|(==)|(<=)|<|>";
+    public static final String compOpRegx = "(>=)|(==)|(<=)|<|>";
     public static final String OtherRegx = "[\\{\\}\\(\\)\\[\\]\\;]";
 
 
@@ -50,6 +50,7 @@ public class lab01 {
         System.out.println();
     }
 
+    // others check
     public static boolean OthersChecker(String str) {
         String theRegex = OtherRegx;
         boolean ret = false;
@@ -65,8 +66,9 @@ public class lab01 {
         return ret;
     }
 
-    public static boolean conOpChecker(String str) {
-        String theRegex = conOpRegx;
+    // comparator operator check
+    public static boolean compOpChecker(String str) {
+        String theRegex = compOpRegx;
         boolean ret = false;
 
         Pattern checkRegex = Pattern.compile(theRegex);
@@ -80,6 +82,7 @@ public class lab01 {
         return ret;
     }
 
+    // math operator check
     public static boolean MathOpChecker(String str) {
         String theRegex = mathOpRegx;
         boolean ret = false;
@@ -94,8 +97,8 @@ public class lab01 {
         }
         return ret;
     }
-
-
+    
+    // character check
     public static boolean CharChecker(String str) {
         String theRegex = charRegx;
         boolean ret = false;
@@ -111,7 +114,7 @@ public class lab01 {
         return ret;
     }
 
-
+    // string check
     public static boolean StringChecker(String str) {
         String theRegex = stringRegx;
         boolean ret = false;
@@ -129,6 +132,7 @@ public class lab01 {
         return ret;
     }
 
+    // numeric check
     public static boolean numericChecker(String str) {
         String theRegex = numericValuesRegx;
         boolean ret = false;
@@ -144,9 +148,10 @@ public class lab01 {
         }
         return ret;
     }
-
+    
+    // value check
     public static boolean identifierWithValueChecker(String str) {
-        String theRegex = idwithValueRegx;
+        String theRegex = idWithValueRegx;
         boolean ret = false;
 
         Pattern checkRegex = Pattern.compile(theRegex);
@@ -162,7 +167,7 @@ public class lab01 {
         return ret;
     }
 
-
+    // identify comma
     public static boolean identifiercommaChecker(String str) {
         String theRegex = idWithComasRegx;
         boolean ret = false;
@@ -180,6 +185,7 @@ public class lab01 {
         return ret;
     }
 
+    // check keywords
     public static boolean keywordChecker(String str) {
         String theRegex = keywordsRegx;
         boolean ret = false;
@@ -204,11 +210,12 @@ public class lab01 {
 
         return str;
     }
-
+    
+    // checker
     public static void checker(String str) {
         keywordChecker(str);
         MathOpChecker(str);
-        conOpChecker(str);
+        compOpChecker(str);
         OthersChecker(str);
         identifierWithValueChecker(str);
         identifiercommaChecker(str);
@@ -219,6 +226,7 @@ public class lab01 {
         numericChecker(str);
     }
 
+    // buffer reader
     public static void readFromFile(String fileName) {
         BufferedReader br = null;
         String line;
@@ -234,7 +242,7 @@ public class lab01 {
 
     }
 
-
+    // main method
     public static void main(String[] args) {
         readFromFile("task1");
         printer("KeyWords", keySet);
