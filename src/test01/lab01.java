@@ -42,6 +42,7 @@ public class lab01 {
         for (String s : strArr) ss.add(s);
     }
 
+    // print function
     public static void printer(String str, Set<String> ls) {
         System.out.print(str + ":");
         for (String l : ls) {

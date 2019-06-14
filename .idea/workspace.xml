@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a7ed1a8-af12-4155-a086-ed5936bf788a" name="Default Changelist" comment="" />
+    <list default="true" id="4a7ed1a8-af12-4155-a086-ed5936bf788a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test01/lab01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test01/lab01.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +15,28 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test01/lab01.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="924">
+              <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1032#1040#0" expanded="true" />
+                <element signature="e#1097#1105#0" expanded="true" />
+                <element signature="e#1160#1168#0" expanded="true" />
+                <element signature="e#1225#1233#0" expanded="true" />
+                <element signature="e#1290#1298#0" expanded="true" />
+                <element signature="e#1352#1360#0" expanded="true" />
+                <element signature="e#1416#1424#0" expanded="true" />
+                <element signature="e#1477#1485#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -57,7 +80,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="463" />
     <option name="y" value="94" />
     <option name="width" value="1363" />
@@ -82,12 +105,6 @@
               <item name="CSE420-Lab" type="b2602c69:ProjectViewProjectNode" />
               <item name="CSE420-Lab" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSE420-Lab" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSE420-Lab" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="CSE420Lab01" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CSE420-Lab" type="b2602c69:ProjectViewProjectNode" />
@@ -233,16 +250,18 @@
       <workItem from="1560483509080" duration="1102000" />
       <workItem from="1560487108157" duration="108000" />
       <workItem from="1560487249719" duration="2251000" />
+      <workItem from="1560493768116" duration="283000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12673000" />
+    <option name="totallyTimeSpent" value="12956000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="463" y="94" width="1363" height="759" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19263239" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1359275" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -380,13 +399,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test01/lab01b.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test01/lab01b.java" />
     <entry file="file://$PROJECT_DIR$/src/CSE420Lab01/lexicalAnalysis.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-6">
@@ -399,8 +412,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test01/lab01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="239" column="32" lean-forward="true" selection-start-line="239" selection-start-column="32" selection-end-line="239" selection-end-column="32" />
+        <state relative-caret-position="924">
+          <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1032#1040#0" expanded="true" />
