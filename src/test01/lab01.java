@@ -17,7 +17,6 @@ public class lab01 {
     public static final String compOpRegx = "(>=)|(==)|(<=)|<|>";
     public static final String OtherRegx = "[\\{\\}\\(\\)\\[\\]\\;]";
 
-
     public static Set<String> keySet = new HashSet<String>();
     public static Set<String> stringSet = new HashSet<String>();
     public static Set<String> charSet = new HashSet<String>();

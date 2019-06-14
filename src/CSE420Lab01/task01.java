@@ -10,7 +10,6 @@ public class task01 {
         String regNum = "\\d+";
 
         Pattern p = Pattern.compile(regNum);
-
         Matcher m = p.matcher(scheck);
 
         while (m.find()) {
