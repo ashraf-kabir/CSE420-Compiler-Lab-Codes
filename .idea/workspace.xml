@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a7ed1a8-af12-4155-a086-ed5936bf788a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test01/lab01b.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CSE420-Lab/test01/lab01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CSE420-Lab/test01/lab01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test01/lab01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test01/lab01.java" afterDir="false" />
-    </list>
+    <list default="true" id="4a7ed1a8-af12-4155-a086-ed5936bf788a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,28 +13,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test01/lab01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4431">
-              <caret line="220" column="36" lean-forward="true" selection-start-line="220" selection-start-column="36" selection-end-line="220" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1026#1034#0" expanded="true" />
-                <element signature="e#1091#1099#0" expanded="true" />
-                <element signature="e#1154#1162#0" expanded="true" />
-                <element signature="e#1219#1227#0" expanded="true" />
-                <element signature="e#1283#1291#0" expanded="true" />
-                <element signature="e#1345#1353#0" expanded="true" />
-                <element signature="e#1409#1417#0" expanded="true" />
-                <element signature="e#1470#1478#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -83,9 +57,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="688" />
-    <option name="y" value="146" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="463" />
+    <option name="y" value="94" />
     <option name="width" value="1363" />
     <option name="height" value="759" />
   </component>
@@ -258,18 +232,17 @@
       <workItem from="1560481309753" duration="48000" />
       <workItem from="1560483509080" duration="1102000" />
       <workItem from="1560487108157" duration="108000" />
-      <workItem from="1560487249719" duration="2067000" />
+      <workItem from="1560487249719" duration="2251000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12489000" />
+    <option name="totallyTimeSpent" value="12673000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="463" y="94" width="1363" height="759" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1337953" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19263239" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -278,7 +251,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.20260021" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.29872206" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -426,18 +399,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test01/lab01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4431">
-          <caret line="220" column="36" lean-forward="true" selection-start-line="220" selection-start-column="36" selection-end-line="220" selection-end-column="36" />
+        <state relative-caret-position="149">
+          <caret line="239" column="32" lean-forward="true" selection-start-line="239" selection-start-column="32" selection-end-line="239" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1026#1034#0" expanded="true" />
-            <element signature="e#1091#1099#0" expanded="true" />
-            <element signature="e#1154#1162#0" expanded="true" />
-            <element signature="e#1219#1227#0" expanded="true" />
-            <element signature="e#1283#1291#0" expanded="true" />
-            <element signature="e#1345#1353#0" expanded="true" />
-            <element signature="e#1409#1417#0" expanded="true" />
-            <element signature="e#1470#1478#0" expanded="true" />
+            <element signature="e#1032#1040#0" expanded="true" />
+            <element signature="e#1097#1105#0" expanded="true" />
+            <element signature="e#1160#1168#0" expanded="true" />
+            <element signature="e#1225#1233#0" expanded="true" />
+            <element signature="e#1290#1298#0" expanded="true" />
+            <element signature="e#1352#1360#0" expanded="true" />
+            <element signature="e#1416#1424#0" expanded="true" />
+            <element signature="e#1477#1485#0" expanded="true" />
           </folding>
         </state>
       </provider>
