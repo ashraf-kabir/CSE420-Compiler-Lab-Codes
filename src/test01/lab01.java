@@ -256,3 +256,6 @@ public class lab01 {
     }
 
 }
+/*
+parsing a string of characters is analyzing this string to find tokens, or items and then create a structure from the result.
+ */
