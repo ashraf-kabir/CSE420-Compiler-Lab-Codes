@@ -33,7 +33,7 @@ public class lab02 {
 
                     if ((int) (s.charAt(4)) == 46) {
                         pCount++;
-                        System.out.println(pCount + ": Invalid web address!");
+                        System.out.println("Invalid web address, " + pCount);
                         break;
                     } else if ((t > 96 && t < 123) || (t > 47 && t < 58)) {
                         //Letter and number
