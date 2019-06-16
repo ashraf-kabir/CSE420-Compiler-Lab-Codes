@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a7ed1a8-af12-4155-a086-ed5936bf788a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/CSE420Lab02/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CSE420Lab02/lab02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSE420Lab02/lab02.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,11 +17,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CSE420Lab02/lab02.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="35" column="43" lean-forward="true" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+            <state relative-caret-position="572">
+              <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CSE420Lab02/test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,12 +102,13 @@
         <option value="$PROJECT_DIR$/src/CSE420Lab01/task01.java" />
         <option value="$PROJECT_DIR$/src/CSE420Lab02/input.txt" />
         <option value="$PROJECT_DIR$/src/CSE420Lab02/lab02.java" />
+        <option value="$PROJECT_DIR$/src/CSE420Lab02/test.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="247" />
-    <option name="y" value="141" />
+    <option name="x" value="175" />
+    <option name="y" value="124" />
     <option name="width" value="1363" />
     <option name="height" value="759" />
   </component>
@@ -119,12 +132,6 @@
               <item name="CSE420-Lab" type="b2602c69:ProjectViewProjectNode" />
               <item name="CSE420-Lab" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSE420-Lab" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSE420-Lab" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="CSE420Lab01" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CSE420-Lab" type="b2602c69:ProjectViewProjectNode" />
@@ -172,7 +179,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.lab02">
+  <component name="RunManager" selected="Application.test">
     <configuration name="lab01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test01.lab01" />
       <module name="CSE420-Lab" />
@@ -225,12 +232,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="task05e" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CSE420Lab01.task05e" />
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CSE420Lab02.test" />
       <module name="CSE420-Lab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CSE420Lab01.*" />
+          <option name="PATTERN" value="CSE420Lab02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -240,11 +247,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.lab02" />
         <item itemvalue="Application.task01" />
         <item itemvalue="Application.lexicalAnalysis" />
         <item itemvalue="Application.lab01" />
-        <item itemvalue="Application.task05e" />
       </list>
     </recent_temporary>
   </component>
@@ -274,16 +281,18 @@
       <workItem from="1560507291340" duration="1037000" />
       <workItem from="1560527280357" duration="595000" />
       <workItem from="1560531080565" duration="897000" />
+      <workItem from="1560699780875" duration="528000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19488000" />
+    <option name="totallyTimeSpent" value="20016000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="247" y="141" width="1363" height="759" extended-state="0" />
+    <frame x="175" y="124" width="1363" height="759" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20491174" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20798159" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -292,7 +301,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.28115016" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.413738" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -421,13 +430,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CSE420Lab02/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CSE420Lab01/task01.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1448">
@@ -438,10 +440,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/CSE420Lab02/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/CSE420Lab02/lab02.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="35" column="43" lean-forward="true" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+        <state relative-caret-position="572">
+          <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CSE420Lab02/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
