@@ -35,7 +35,6 @@ public class test01 {
     public static String[] webDomainCheck = {"com", "net", "org", "uk", "bd", "us", "ac"};
     public static List<String> webDCheck = Arrays.asList(webDomainCheck);
 
-
     static boolean startsWith(String word, List<Character> numericAndSings, String en) {
         if (en.equals("web")) {
             if (numericAndSings.contains(word.charAt(4)))

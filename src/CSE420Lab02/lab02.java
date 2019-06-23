@@ -33,7 +33,7 @@ public class lab02 {
 
                     if ((int) (s.charAt(4)) == 46) {
                         pCount++;
-                        System.out.println("Invalid web address, " + pCount);
+                        System.out.println("Invalid web address_a, " + pCount);
                         break;
                     } else if ((t > 96 && t < 123) || (t > 47 && t < 58)) {
                         //Letter and number
@@ -41,24 +41,24 @@ public class lab02 {
                     } else if (t == 46) {
                         if (p == 46) {
                             pCount++;
-                            System.out.println("Invalid web address, " + pCount);
+                            System.out.println("Invalid web address_b, " + pCount);
                             break;
                         } else {
                             int lastin = s.lastIndexOf(".");
                             String g = s.substring(i + 1);
                             if (s.length() > lastin && g.length() >= 2) {
                                 pCount++;
-                                System.out.println("Valid web address, " + pCount);
+                                System.out.println("Valid web address_x, " + pCount);
                                 break;
                             } else {
                                 pCount++;
-                                System.out.println("Invalid web address, " + pCount);
+                                System.out.println("Invalid web address_c, " + pCount);
                                 break;
                             }
                         }
                     } else if (t == 64) {
                         pCount++;
-                        System.out.println("Invalid web address or email id, " + pCount);
+                        System.out.println("Invalid web address or email id_x, " + pCount);
                         break;
                     }
                 }
@@ -78,7 +78,7 @@ public class lab02 {
                         } else if (t == 64) {
                             if (p == 46 || p == 64) {
                                 pCount++;
-                                System.out.println("Invalid email id, " + pCount);
+                                System.out.println("Invalid email id_a, " + pCount);
                                 break;
                             } else {
                                 String g = s.substring(i + 1);
@@ -87,14 +87,14 @@ public class lab02 {
                                     System.out.println("Valid email id, " + pCount);
                                 } else {
                                     pCount++;
-                                    System.out.println("Invalid email id, "+ pCount);
+                                    System.out.println("Invalid email id_b, "+ pCount);
                                 }
                             }
                         }
                     }
                 } else {
                     pCount++;
-                    System.out.println("Invalid email id, " + pCount);
+                    System.out.println("Invalid email id_c, " + pCount);
                 }
             } else if (s.endsWith(".com")) {
                 //Conditions for checking invalid web address
@@ -108,11 +108,11 @@ public class lab02 {
 
                 if (count == 0) {
                     pCount++;
-                    System.out.println("Invalid web address!, " + pCount);
+                    System.out.println("Invalid web address_d, " + pCount);
                 }
             } else {
                 pCount++;
-                System.out.println("Invalid web address or email id!, " + pCount);
+                System.out.println("Invalid web address or email id_y, " + pCount);
             }
         }
     }
