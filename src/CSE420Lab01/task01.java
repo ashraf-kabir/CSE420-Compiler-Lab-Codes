@@ -75,7 +75,6 @@ public class task01 {
         Matcher regexMatcher = checkRegex.matcher(str);
         while (regexMatcher.find()) {
             if (regexMatcher.group().length() != 0) {
-                //System.out.println(regexMatcher.group().trim());
                 Setting(regexMatcher.group().trim(), numSet);
                 ret = true;
             }
@@ -101,7 +100,7 @@ public class task01 {
         return ret;
     }
 
-    // identify comma
+    // identify comma.... it did not work
     public static boolean identifiercommaChecker(String str) {
         String theRegex = idWithCommaRegx;
         boolean ret = false;

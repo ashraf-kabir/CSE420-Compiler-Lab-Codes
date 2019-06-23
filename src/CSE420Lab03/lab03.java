@@ -11,5 +11,6 @@ public class lab03 {
         Scanner sc = new Scanner(f);
         String s = sc.next();
 
+
     }
 }
