@@ -12,7 +12,7 @@ public class lab02 {
         Scanner sc = new Scanner(f);
         String s = "";
 
-        int pCount = 0;  // For printing
+        int pCount = 0;  // for printing
 
         while (sc.hasNext()) {
             s = sc.next().toLowerCase();
