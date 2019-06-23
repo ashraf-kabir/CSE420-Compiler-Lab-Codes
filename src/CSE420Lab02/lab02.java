@@ -108,11 +108,11 @@ public class lab02 {
 
                 if (count == 0) {
                     pCount++;
-                    System.out.println(pCount + ": Invalid web address!");
+                    System.out.println("Invalid web address!, " + pCount);
                 }
             } else {
                 pCount++;
-                System.out.println(pCount + ": Invalid web address or email id!");
+                System.out.println("Invalid web address or email id!, " + pCount);
             }
         }
     }
