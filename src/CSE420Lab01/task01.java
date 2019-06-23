@@ -17,11 +17,6 @@ public class task01 {
     public static final String compOpRegx = "(>=)|(==)|(<=)|<|>";
     public static final String OtherRegx = "[\\{\\}\\(\\)\\[\\]\\;]";
 
-    /*
-    HashSet extends AbstractSet and implements the Set interface. It creates a collection that uses a hash table for storage.
-    A hash table stores information by using a mechanism called hashing. In hashing, the informational content of a key is used to determine a unique value, called its hash code.
-    The hash code is then used as the index at which the data associated with the key is stored. The transformation of the key into its hash code is performed automatically.
-     */
 
     public static Set<String> keySet = new HashSet<String>();
     public static Set<String> mathOpSet = new HashSet<String>();
@@ -30,10 +25,6 @@ public class task01 {
     public static Set<String> otherSet = new HashSet<String>();
     public static Set<String> idSet = new HashSet<String>();
 
-
-    /*
-    parsing a string of characters is analyzing this string to find tokens, or items and then create a structure from the result.
-    */
 
     public static String idParserforValue(String str) {
         str = str.replaceAll("(int|float|String|double|byte|char)", "").replaceAll("\\=", "");
@@ -51,7 +42,7 @@ public class task01 {
     }
 
     // print function
-    public static void printer(String str, Set<String> ls) {
+    public static void printFunc(String str, Set<String> ls) {
         System.out.print(str + ":");
         for (String l : ls) {
             System.out.print(" " + l);
@@ -204,15 +195,15 @@ public class task01 {
 
     }
 
-    // main method
+    // main function
     public static void main(String[] args) {
         readFromFile("task1");
-        printer("Keywords", keySet);
-        printer("Identifiers", idSet);
-        printer("Math Operators", mathOpSet);
-        printer("Logical Operators", compOpSet);
-        printer("Numerical Values", numSet);
-        printer("Others", otherSet);
+        printFunc("Keywords", keySet);
+        printFunc("Identifiers", idSet);
+        printFunc("Math Operators", mathOpSet);
+        printFunc("Logical Operators", compOpSet);
+        printFunc("Numerical Values", numSet);
+        printFunc("Others", otherSet);
     }
 
 }

@@ -7,8 +7,10 @@ import java.util.Scanner;
 public class test01 {
 
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
         System.out.println("How many email/web do you want to check?");
+
         int counter = sc.nextInt();
         String word[] = new String[counter];
         for (int i = 0; i < counter; i++) {

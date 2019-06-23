@@ -8,7 +8,7 @@ public class lab02 {
 
     public static void main(String[] args) throws FileNotFoundException {
 
-        File f = new File("E:\\workspaces\\CSE420-Lab\\src\\CSE420Lab02\\input.txt");
+        File f = new File("E:\\workspaces\\CSE420-Lab\\src\\CSE420Lab02\\input_lab03.txt");
         Scanner sc = new Scanner(f);
         String s = "";
 
@@ -59,6 +59,7 @@ public class lab02 {
                     } else if (t == 64) {
                         pCount++;
                         System.out.println("Invalid web address or email id_x, " + pCount);
+                        // if there is any unsupported character middle of the domain name. ex: www.something@somewhere.com
                         break;
                     }
                 }
@@ -95,6 +96,7 @@ public class lab02 {
                 } else {
                     pCount++;
                     System.out.println("Invalid email id_c, " + pCount);
+                    // if starts with number
                 }
             } else if (s.endsWith(".com")) {
                 //Conditions for checking invalid web address
@@ -109,10 +111,13 @@ public class lab02 {
                 if (count == 0) {
                     pCount++;
                     System.out.println("Invalid web address_d, " + pCount);
+                    // if missing www. for web address
                 }
             } else {
                 pCount++;
                 System.out.println("Invalid web address or email id_y, " + pCount);
+                // if there is no .com after domain name
+                // and without www. and .com
             }
         }
     }
