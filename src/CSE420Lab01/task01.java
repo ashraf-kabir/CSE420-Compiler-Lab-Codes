@@ -59,38 +59,6 @@ public class task01 {
         System.out.println();
     }
 
-    // others check
-    public static boolean othersChecker(String str) {
-        String theRegex = OtherRegx;
-        boolean ret = false;
-
-        Pattern checkRegex = Pattern.compile(theRegex);
-        Matcher regexMatcher = checkRegex.matcher(str);
-        while (regexMatcher.find()) {
-            if (regexMatcher.group().length() != 0) {
-                Setting(regexMatcher.group().trim(), otherSet);
-                ret = true;
-            }
-        }
-        return ret;
-    }
-
-    // comparator operator check
-    public static boolean compOpChecker(String str) {
-        String theRegex = compOpRegx;
-        boolean ret = false;
-
-        Pattern checkRegex = Pattern.compile(theRegex);
-        Matcher regexMatcher = checkRegex.matcher(str);
-        while (regexMatcher.find()) {
-            if (regexMatcher.group().length() != 0) {
-                Setting(regexMatcher.group().trim(), compOpSet);
-                ret = true;
-            }
-        }
-        return ret;
-    }
-
     // math operator check
     public static boolean mathOpChecker(String str) {
         String theRegex = mathOpRegx;
@@ -154,6 +122,38 @@ public class task01 {
                 String strr = regexMatcher.group().trim();
                 strr = idParserforComma(strr);
                 Setting(strr, idSet);
+                ret = true;
+            }
+        }
+        return ret;
+    }
+
+    // others check
+    public static boolean othersChecker(String str) {
+        String theRegex = OtherRegx;
+        boolean ret = false;
+
+        Pattern checkRegex = Pattern.compile(theRegex);
+        Matcher regexMatcher = checkRegex.matcher(str);
+        while (regexMatcher.find()) {
+            if (regexMatcher.group().length() != 0) {
+                Setting(regexMatcher.group().trim(), otherSet);
+                ret = true;
+            }
+        }
+        return ret;
+    }
+
+    // comparator operator check
+    public static boolean compOpChecker(String str) {
+        String theRegex = compOpRegx;
+        boolean ret = false;
+
+        Pattern checkRegex = Pattern.compile(theRegex);
+        Matcher regexMatcher = checkRegex.matcher(str);
+        while (regexMatcher.find()) {
+            if (regexMatcher.group().length() != 0) {
+                Setting(regexMatcher.group().trim(), compOpSet);
                 ret = true;
             }
         }
