@@ -8,26 +8,6 @@ import java.util.Scanner;
 
 public class lexicalAnalysis {
 
-    boolean isOthers(String s) {
-        String []p = {",", ";", "(", ")", "{", "}", "[", "]"};
-        for (int i = 0; i<=p.length; i++) {
-            if (s.equals(p[i])) {
-                return true;
-            }
-        }
-        return false;
-    }
-
-    boolean isLogicalOperator(String s) {
-        String []p = {">", "<", ">=", "<=", "==", "!="};
-        for (int i = 0; i<=p.length; i++) {
-            if (s.equals(p[i])) {
-                return true;
-            }
-        }
-        return false;
-    }
-
     public static void main(String[] args) throws FileNotFoundException {
 
         HashSet<String> keywords = new HashSet<String>();
@@ -43,8 +23,6 @@ public class lexicalAnalysis {
         String line = "";
         while (sc.hasNext()) {
             line = sc.next();
-
-            
 
             //Finding keywords
             if (line.equals("abstract")
