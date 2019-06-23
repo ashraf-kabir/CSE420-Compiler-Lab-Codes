@@ -8,8 +8,8 @@ import java.util.HashSet;
 public class task01a {
 
     public static boolean isOthers(String s) {
-        String []p = {",", ";", "(", ")", "{", "}", "[", "]"};
-        for (int i = 0; i<=p.length; i++) {
+        String[] p = {",", ";", "(", ")", "{", "}", "[", "]"};
+        for (int i = 0; i <= p.length; i++) {
             if (s.equals(p[i])) {
                 return true;
             }
@@ -18,8 +18,8 @@ public class task01a {
     }
 
     public static boolean isLogicalOperator(String s) {
-        String []p = {">", "<", ">=", "<=", "==", "!="};
-        for (int i = 0; i<=p.length; i++) {
+        String[] p = {">", "<", ">=", "<=", "==", "!="};
+        for (int i = 0; i <= p.length; i++) {
             if (s.equals(p[i])) {
                 return true;
             }
@@ -28,8 +28,8 @@ public class task01a {
     }
 
     public static boolean isMathOperator(String s) {
-        String []p = {"+", "-", "*", "/"};
-        for (int i = 0; i<=p.length; i++) {
+        String[] p = {"+", "-", "*", "/"};
+        for (int i = 0; i <= p.length; i++) {
             if (s.equals(p[i])) {
                 return true;
             }
@@ -38,8 +38,8 @@ public class task01a {
     }
 
     public static boolean isKeyWord(String s) {
-        String []p = {"if", "else", "public", "private"};
-        for (int i = 0; i<=p.length; i++) {
+        String[] p = {"if", "else", "public", "private"};
+        for (int i = 0; i <= p.length; i++) {
             if (s.equals(p[i])) {
                 return true;
             }
@@ -48,8 +48,8 @@ public class task01a {
     }
 
     public static boolean isIdentifier(String s) {
-        String []p = {"if", "else", "", "/"};
-        for (int i = 0; i<=p.length; i++) {
+        String[] p = {"if", "else", "", "/"};
+        for (int i = 0; i <= p.length; i++) {
             if (s.equals(p[i])) {
                 return true;
             }
