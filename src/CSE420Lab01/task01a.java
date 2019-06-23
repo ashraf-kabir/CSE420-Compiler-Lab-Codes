@@ -57,14 +57,6 @@ public class task01a {
         return false;
     }
 
-    public static void checker(String s) {
-        isMathOperator(s);
-        isKeyWord(s);
-        isLogicalOperator(s);
-        isOthers(s);
-        isIdentifier(s);
-    }
-
     public static void main(String[] args) {
 
         HashSet<String> keywords = new HashSet<String>();
@@ -76,12 +68,16 @@ public class task01a {
 
         //readFromFile("task1");
         BufferedReader br = null;
-        String line;
+        String line = "";
 
         try {
             br = new BufferedReader(new FileReader("src\\CSE420Lab01\\task1.txt"));
             while ((line = br.readLine()) != null) {
-
+                if (others(line)) {
+                    others.add(line);
+                } else if (log(line)) {
+                    log.add(line);
+                }
             }
         } catch (IOException e) {
             e.printStackTrace();
