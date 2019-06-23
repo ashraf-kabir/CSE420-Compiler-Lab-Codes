@@ -38,7 +38,7 @@ public class task01a {
     }
 
     public static boolean isKeyWord(String s) {
-        String []p = {"if", "else", "", "/"};
+        String []p = {"if", "else", "public", "private"};
         for (int i = 0; i<=p.length; i++) {
             if (s.equals(p[i])) {
                 return true;
