@@ -12,7 +12,7 @@ public class lab02 {
         Scanner sc = new Scanner(f);
         String s = "";
 
-        int pCount = 0;  // for printing
+        int pCount = 0;  // for counting and printing the line number
 
         while (sc.hasNext()) {
             s = sc.next().toLowerCase();
@@ -33,7 +33,7 @@ public class lab02 {
 
                     if ((int) (s.charAt(4)) == 46) {
                         pCount++;
-                        System.out.println("Invalid web address " + pCount);
+                        System.out.println("Invalid web address, " + pCount);
                         break;
                     } else if ((t > 96 && t < 123) || (t > 47 && t < 58)) {
                         //Letter and number
@@ -41,24 +41,24 @@ public class lab02 {
                     } else if (t == 46) {
                         if (p == 46) {
                             pCount++;
-                            System.out.println(pCount + ": Invalid web address!");
+                            System.out.println("Invalid web address, " + pCount);
                             break;
                         } else {
                             int lastin = s.lastIndexOf(".");
                             String g = s.substring(i + 1);
                             if (s.length() > lastin && g.length() >= 2) {
                                 pCount++;
-                                System.out.println(pCount + ": Valid web address.");
+                                System.out.println("Valid web address, " + pCount);
                                 break;
                             } else {
                                 pCount++;
-                                System.out.println(pCount + ": Invalid web address!");
+                                System.out.println("Invalid web address, " + pCount);
                                 break;
                             }
                         }
                     } else if (t == 64) {
                         pCount++;
-                        System.out.println(pCount + ": Invalid web address or email id!");
+                        System.out.println("Invalid web address or email id, " + pCount);
                         break;
                     }
                 }
@@ -78,23 +78,23 @@ public class lab02 {
                         } else if (t == 64) {
                             if (p == 46 || p == 64) {
                                 pCount++;
-                                System.out.println(pCount + ": Invalid email id!");
+                                System.out.println("Invalid email id, " + pCount);
                                 break;
                             } else {
                                 String g = s.substring(i + 1);
                                 if (g.contains(".")) {
                                     pCount++;
-                                    System.out.println(pCount + ": Valid email id.");
+                                    System.out.println("Valid email id, " + pCount);
                                 } else {
                                     pCount++;
-                                    System.out.println(pCount + ": Invalid email id!");
+                                    System.out.println("Invalid email id, "+ pCount);
                                 }
                             }
                         }
                     }
                 } else {
                     pCount++;
-                    System.out.println(pCount + ": Invalid email id!");
+                    System.out.println("Invalid email id, " + pCount);
                 }
             } else if (s.endsWith(".com")) {
                 //Conditions for checking invalid web address
