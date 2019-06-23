@@ -166,8 +166,8 @@ public class task01 {
         return ret;
     }
 
-    // checker function which takes string from buffer
-    // then pass it to different functions of checker
+    // checker function which takes string from buffer reader func
+    // then pass it to different functions to check
     public static void checker(String str) {
         keywordChecker(str);
         mathOpChecker(str);
@@ -191,7 +191,6 @@ public class task01 {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
     }
 
     // main function

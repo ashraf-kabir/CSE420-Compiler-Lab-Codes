@@ -8,7 +8,28 @@ import java.util.Scanner;
 
 public class lexicalAnalysis {
 
+    boolean isOthers(String s) {
+        String []p = {",", ";", "(", ")", "{", "}", "[", "]"};
+        for (int i = 0; i<=p.length; i++) {
+            if (s.equals(p[i])) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    boolean isLogicalOperator(String s) {
+        String []p = {">", "<", ">=", "<=", "==", "!="};
+        for (int i = 0; i<=p.length; i++) {
+            if (s.equals(p[i])) {
+                return true;
+            }
+        }
+        return false;
+    }
+
     public static void main(String[] args) throws FileNotFoundException {
+
         HashSet<String> keywords = new HashSet<String>();
         HashSet<String> math = new HashSet<String>();
         HashSet<String> log = new HashSet<String>();
@@ -17,11 +38,13 @@ public class lexicalAnalysis {
         HashSet<String> id = new HashSet<String>();
 
         // taking input from file
-        File f = new File("E:\\workspaces\\CSE420-Lab\\src\\CSE420Lab01\\input_lab03.txt");
+        File f = new File("E:\\workspaces\\CSE420-Lab\\src\\CSE420Lab01\\task1.txt");
         Scanner sc = new Scanner(f);
         String line = "";
         while (sc.hasNext()) {
             line = sc.next();
+
+            
 
             //Finding keywords
             if (line.equals("abstract")
