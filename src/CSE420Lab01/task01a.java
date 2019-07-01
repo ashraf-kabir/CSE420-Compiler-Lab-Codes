@@ -47,8 +47,18 @@ public class task01a {
         return false;
     }
 
+    public static boolean isNumeric(String s) {
+        String[] p = {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9"};
+        for (int i = 0; i <= p.length; i++) {
+            if (s.equals(p[i])) {
+                return true;
+            }
+        }
+        return false;
+    }
+
     public static boolean isIdentifier(String s) {
-        String[] p = {"if", "else", "", "/"};
+        String[] p = {"if", "else", "", ""};
         for (int i = 0; i <= p.length; i++) {
             if (s.equals(p[i])) {
                 return true;
@@ -73,10 +83,16 @@ public class task01a {
         try {
             br = new BufferedReader(new FileReader("src\\CSE420Lab01\\task1.txt"));
             while ((line = br.readLine()) != null) {
-                if (others(line)) {
+                if (isOthers(line)) {
                     others.add(line);
-                } else if (log(line)) {
+                } else if (isLogicalOperator(line)) {
                     log.add(line);
+                } else if (isMathOperator(line)) {
+                    math.add(line);
+                } else if (isKeyWord(line)) {
+                    keywords.add(line);
+                } else if (isNumeric(line)) {
+                    num.add(line);
                 }
             }
         } catch (IOException e) {
