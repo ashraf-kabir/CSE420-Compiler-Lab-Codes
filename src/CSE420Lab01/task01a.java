@@ -93,6 +93,8 @@ public class task01a {
                     keywords.add(line);
                 } else if (isNumeric(line)) {
                     num.add(line);
+                } else {
+                    id.add(line);
                 }
             }
         } catch (IOException e) {
