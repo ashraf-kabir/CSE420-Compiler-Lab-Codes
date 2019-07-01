@@ -41,15 +41,6 @@ public class task01 {
         for (String s : strArr) ss.add(s);
     }
 
-    // print function
-    public static void printFunc(String str, Set<String> ls) {
-        System.out.print(str + ":");
-        for (String l : ls) {
-            System.out.print(" " + l);
-        }
-        System.out.println();
-    }
-
     // math operator check
     public static boolean mathOpChecker(String str) {
         String theRegex = mathOpRegx;
@@ -176,6 +167,15 @@ public class task01 {
         identifierWithValueChecker(str);
         identifiercommaChecker(str);
         numericChecker(str);
+    }
+
+    // print function
+    public static void printFunc(String str, Set<String> ls) {
+        System.out.print(str + ":");
+        for (String l : ls) {
+            System.out.print(" " + l);
+        }
+        System.out.println();
     }
 
     // buffer reader
