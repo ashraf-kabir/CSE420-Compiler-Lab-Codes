@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a7ed1a8-af12-4155-a086-ed5936bf788a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CSE420Lab03/lab03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSE420Lab03/lab03.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LabQuiz01/LabQuiz01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LabQuiz01akaLab04/LabQuiz01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LabQuiz01/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/LabQuiz01akaLab04/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/backup/task01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backup/task01.java" afterDir="false" />
@@ -90,14 +92,14 @@
         <option value="$PROJECT_DIR$/src/LabQuiz01/LabQuiz01.java" />
         <option value="$PROJECT_DIR$/src/LabQuiz01/input.txt" />
         <option value="$PROJECT_DIR$/src/CSE420Lab03/input_lab03.txt" />
-        <option value="$PROJECT_DIR$/src/CSE420Lab03/lab03.java" />
         <option value="$PROJECT_DIR$/src/LabQuiz01akaLab04/LabQuiz01.java" />
+        <option value="$PROJECT_DIR$/src/CSE420Lab03/lab03.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="138" />
-    <option name="y" value="128" />
+    <option name="x" value="200" />
+    <option name="y" value="132" />
     <option name="width" value="1262" />
     <option name="height" value="759" />
   </component>
@@ -120,12 +122,6 @@
               <item name="CSE420-Lab" type="b2602c69:ProjectViewProjectNode" />
               <item name="CSE420-Lab" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSE420-Lab" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSE420-Lab" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="CSE420Lab02" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CSE420-Lab" type="b2602c69:ProjectViewProjectNode" />
@@ -288,15 +284,15 @@
       <workItem from="1561277543898" duration="8191000" />
       <workItem from="1561293358571" duration="1955000" />
       <workItem from="1561989837134" duration="2005000" />
-      <workItem from="1562486835952" duration="8321000" />
+      <workItem from="1562486835952" duration="8577000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44196000" />
+    <option name="totallyTimeSpent" value="44452000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="138" y="128" width="1262" height="759" extended-state="0" />
+    <frame x="200" y="132" width="1262" height="759" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20965058" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -497,30 +493,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LabQuiz01akaLab04/LabQuiz01.java">
+    <entry file="file://$PROJECT_DIR$/src/CSE420Lab03/input_lab03.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="126">
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CSE420Lab03/lab03.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+        <state relative-caret-position="452">
+          <caret line="55" column="1" lean-forward="true" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CSE420Lab03/input_lab03.txt">
+    <entry file="file://$PROJECT_DIR$/src/LabQuiz01akaLab04/LabQuiz01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        <state relative-caret-position="-574">
+          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

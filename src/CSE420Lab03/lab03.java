@@ -8,6 +8,7 @@ import java.util.regex.Pattern;
 public class lab03 {
 
     public static void main(String[] args) throws FileNotFoundException {
+
         File f = new File("E:\\workspaces\\CSE420-Lab\\src\\CSE420Lab03\\input_lab03.txt");
         Scanner sc = new Scanner(f);
         String s = sc.next();
