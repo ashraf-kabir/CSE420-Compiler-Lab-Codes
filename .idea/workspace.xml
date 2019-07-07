@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a7ed1a8-af12-4155-a086-ed5936bf788a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LabQuiz01akaLab04/LabQuiz01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSE420Lab04akaLabQuiz01/LabQuiz01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LabQuiz01akaLab04/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSE420Lab04akaLabQuiz01/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backup/task01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backup/task01.java" afterDir="false" />
-    </list>
+    <list default="true" id="4a7ed1a8-af12-4155-a086-ed5936bf788a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,8 +92,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="200" />
-    <option name="y" value="132" />
+    <option name="x" value="252" />
+    <option name="y" value="126" />
     <option name="width" value="1262" />
     <option name="height" value="759" />
   </component>
@@ -123,6 +118,12 @@
               <item name="CSE420-Lab" type="b2602c69:ProjectViewProjectNode" />
               <item name="CSE420-Lab" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSE420-Lab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSE420-Lab" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="CSE420Lab04akaLabQuiz01" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -273,17 +274,17 @@
       <workItem from="1561989837134" duration="2005000" />
       <workItem from="1562486835952" duration="8577000" />
       <workItem from="1562512455098" duration="25000" />
-      <workItem from="1562512519088" duration="753000" />
+      <workItem from="1562512519088" duration="1539000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45230000" />
+    <option name="totallyTimeSpent" value="46016000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="200" y="132" width="1262" height="759" extended-state="0" />
+    <frame x="252" y="126" width="1262" height="759" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21630615" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19550748" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -501,7 +502,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CSE420Lab04akaLabQuiz01/LabQuiz01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-574">
+        <state relative-caret-position="21">
           <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
