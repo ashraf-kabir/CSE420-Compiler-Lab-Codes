@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a7ed1a8-af12-4155-a086-ed5936bf788a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LabQuiz01/LabQuiz01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LabQuiz01/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CSE420-Lab/CSE420Lab02/lab02.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CSE420-Lab/CSE420Lab02/lab02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backup/task01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backup/task01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LabQuiz01/LabQuiz01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LabQuiz01/LabQuiz01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LabQuiz01/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/LabQuiz01/input.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LabQuiz01/LabQuiz01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="707">
-              <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+            <state relative-caret-position="288">
+              <caret line="48" column="59" selection-start-line="48" selection-start-column="59" selection-end-line="48" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#368#376#0" expanded="true" />
@@ -35,7 +32,11 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LabQuiz01/input.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -66,12 +67,14 @@
       <find>webDChec</find>
       <find>printer</find>
       <find>print</find>
+      <find>s</find>
     </findStrings>
     <replaceStrings>
       <replace>Log</replace>
       <replace>compOpRegx</replace>
       <replace>mathOpChecker</replace>
       <replace>parserForNumeric</replace>
+      <replace>str1</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -104,17 +107,17 @@
         <option value="$PROJECT_DIR$/src/CSE420Lab01/lexicalAnalysis.java" />
         <option value="$PROJECT_DIR$/src/CSE420Lab02/input_lab02.txt" />
         <option value="$PROJECT_DIR$/src/CSE420Lab02/lab02.java" />
-        <option value="$PROJECT_DIR$/src/LabQuiz01/input.txt" />
         <option value="$PROJECT_DIR$/src/LabQuiz01/A.java" />
+        <option value="$PROJECT_DIR$/src/LabQuiz01/input.txt" />
         <option value="$PROJECT_DIR$/src/LabQuiz01/LabQuiz01.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="163" />
-    <option name="y" value="130" />
-    <option name="width" value="1363" />
-    <option name="height" value="759" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="976" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -183,13 +186,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.lexicalAnalysis">
-    <configuration name="lab02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CSE420Lab02.lab02" />
+  <component name="RunManager" selected="Application.LabQuiz01">
+    <configuration name="LabQuiz01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LabQuiz01.LabQuiz01" />
       <module name="CSE420-Lab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CSE420Lab02.*" />
+          <option name="PATTERN" value="LabQuiz01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,12 +200,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lab03 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CSE420Lab03.lab03" />
+    <configuration name="lab02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CSE420Lab02.lab02" />
       <module name="CSE420-Lab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CSE420Lab03.*" />
+          <option name="PATTERN" value="CSE420Lab02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -251,11 +254,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LabQuiz01" />
         <item itemvalue="Application.lexicalAnalysis" />
         <item itemvalue="Application.lab02" />
         <item itemvalue="Application.task01a" />
         <item itemvalue="Application.task01" />
-        <item itemvalue="Application.lab03 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -291,12 +294,12 @@
       <workItem from="1561277543898" duration="8191000" />
       <workItem from="1561293358571" duration="1955000" />
       <workItem from="1561989837134" duration="2005000" />
-      <workItem from="1562486835952" duration="3124000" />
+      <workItem from="1562486835952" duration="4899000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38999000" />
+    <option name="totallyTimeSpent" value="40774000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -311,7 +314,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.22860238" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.22860238" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -512,12 +515,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LabQuiz01/input.txt">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LabQuiz01/LabQuiz01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="707">
-          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+        <state relative-caret-position="288">
+          <caret line="48" column="59" selection-start-line="48" selection-start-column="59" selection-end-line="48" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#368#376#0" expanded="true" />
