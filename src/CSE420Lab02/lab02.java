@@ -36,7 +36,7 @@ public class lab02 {
                         System.out.println("Invalid web address_a, " + pCount);
                         break;
                     } else if ((t > 96 && t < 123) || (t > 47 && t < 58)) {
-                        // Letter and number
+                        // lowercase a to z 97 to 122
                         continue;
                     } else if (t == 46) {
                         if (p == 46) {
@@ -74,7 +74,7 @@ public class lab02 {
                         }
 
                         if ((t > 96 && t < 123) || (t > 47 && t < 58) || (t == 46)) {
-                            //Letter, number and dot
+                            // Letter, number and dot
                             continue;
                         } else if (t == 64) {
                             if (p == 46 || p == 64) {
@@ -98,8 +98,8 @@ public class lab02 {
                     System.out.println("Invalid email id_c, " + pCount);
                     // if starts with number
                 }
-            } else if (s.endsWith(".com")) {
-                //Conditions for checking invalid web address
+            } else if (s.endsWith(".com") || s.endsWith(".org") || s.endsWith(".bd") || s.endsWith(".com.bd")) {
+                //Conditions for checking of domain of valid web address
                 int count = 0;
                 for (int i = 0; i < s.length(); i++) {
                     int t = (int) (s.charAt(i));
