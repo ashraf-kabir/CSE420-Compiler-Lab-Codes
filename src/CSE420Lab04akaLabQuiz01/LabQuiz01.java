@@ -1,4 +1,4 @@
-package LabQuiz01akaLab04;
+package CSE420Lab04akaLabQuiz01;
 
 import java.io.File;
 import java.util.Scanner;
@@ -10,7 +10,7 @@ public class LabQuiz01 {
     public static void main(String[] args) {
 
         try {
-            File f = new File("E:\\workspaces\\CSE420-Lab\\src\\LabQuiz01akaLab04\\input.txt");
+            File f = new File("E:\\workspaces\\CSE420-Lab\\src\\CSE420Lab04akaLabQuiz01\\input.txt");
             Scanner sc = new Scanner(f);
 
             System.out.println("Methods:");

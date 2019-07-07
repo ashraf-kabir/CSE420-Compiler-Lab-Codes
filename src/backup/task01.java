@@ -22,7 +22,7 @@ public class task01 {
 
     /*
     HashSet extends AbstractSet and implements the Set interface. It creates a collection that uses a hash table for storage.
-    LabQuiz01akaLab04 hash table stores information by using a mechanism called hashing. In hashing, the informational content of a key is used to determine a unique value, called its hash code.
+    CSE420Lab04akaLabQuiz01 hash table stores information by using a mechanism called hashing. In hashing, the informational content of a key is used to determine a unique value, called its hash code.
     The hash code is then used as the index at which the data associated with the key is stored. The transformation of the key into its hash code is performed automatically.
      */
 

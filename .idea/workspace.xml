@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4a7ed1a8-af12-4155-a086-ed5936bf788a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CSE420Lab03/lab03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSE420Lab03/lab03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LabQuiz01/LabQuiz01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LabQuiz01akaLab04/LabQuiz01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LabQuiz01/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/LabQuiz01akaLab04/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LabQuiz01akaLab04/LabQuiz01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSE420Lab04akaLabQuiz01/LabQuiz01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LabQuiz01akaLab04/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSE420Lab04akaLabQuiz01/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/backup/task01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backup/task01.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,7 +18,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -111,6 +110,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -123,24 +124,10 @@
               <item name="CSE420-Lab" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="CSE420-Lab" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSE420-Lab" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="CSE420Lab03" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSE420-Lab" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSE420-Lab" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="LabQuiz01akaLab04" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -178,11 +165,11 @@
   </component>
   <component name="RunManager" selected="Application.lab03">
     <configuration name="LabQuiz01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LabQuiz01akaLab04.LabQuiz01" />
+      <option name="MAIN_CLASS_NAME" value="CSE420Lab04akaLabQuiz01.LabQuiz01" />
       <module name="CSE420-Lab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LabQuiz01akaLab04.*" />
+          <option name="PATTERN" value="CSE420Lab04akaLabQuiz01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -285,16 +272,18 @@
       <workItem from="1561293358571" duration="1955000" />
       <workItem from="1561989837134" duration="2005000" />
       <workItem from="1562486835952" duration="8577000" />
+      <workItem from="1562512455098" duration="25000" />
+      <workItem from="1562512519088" duration="753000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44452000" />
+    <option name="totallyTimeSpent" value="45230000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="200" y="132" width="1262" height="759" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20965058" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21630615" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -302,7 +291,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290735" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.22860238" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -476,7 +465,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LabQuiz01akaLab04/input.txt">
+    <entry file="file://$PROJECT_DIR$/src/CSE420Lab04akaLabQuiz01/input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
@@ -510,7 +499,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LabQuiz01akaLab04/LabQuiz01.java">
+    <entry file="file://$PROJECT_DIR$/src/CSE420Lab04akaLabQuiz01/LabQuiz01.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-574">
           <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
