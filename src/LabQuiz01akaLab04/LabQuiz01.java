@@ -1,4 +1,4 @@
-package LabQuiz01;
+package LabQuiz01akaLab04;
 
 import java.io.File;
 import java.util.Scanner;
@@ -10,14 +10,14 @@ public class LabQuiz01 {
     public static void main(String[] args) {
 
         try {
-            File f = new File("E:\\workspaces\\CSE420-Lab\\src\\LabQuiz01\\input.txt");
+            File f = new File("E:\\workspaces\\CSE420-Lab\\src\\LabQuiz01akaLab04\\input.txt");
             Scanner sc = new Scanner(f);
 
             System.out.println("Methods:");
 
             while (sc.hasNextLine()) {
                 Stack<String> x = new Stack<String>();
-                String s = "";
+                String str1 = "";
                 String str2 = sc.nextLine();
 
                 if (str2.contains(".") || str2.contains(("=")) || str2.contains("if")
@@ -41,12 +41,12 @@ public class LabQuiz01 {
                     try {
                         String z = (String) x.pop();
                         if (z.equals("(")) {
-                            s = z + s;
+                            str1 = z + str1;
                             while (x.peek().equals(" ")) {
                                 x.pop();
                             }
-                            s = (String) x.pop() + s;
-                            System.out.print(s.trim() + ", ");
+                            str1 = (String) x.pop() + str1;
+                            System.out.print(str1.trim() + ", ");
                             //trim() function is used to remove space
                             while (x.peek().equals(" ")) {
                                 x.pop();
@@ -54,7 +54,7 @@ public class LabQuiz01 {
                             System.out.println("return type: " + (String) x.pop());
                             break;
                         } else {
-                            s = z + s;
+                            str1 = z + str1;
                         }
                     } catch (Exception e) {
                         System.out.println(e);
