@@ -8,7 +8,7 @@ public class lab02 {
 
     public static void main(String[] args) throws FileNotFoundException {
 
-        File f = new File("E:\\workspaces\\CSE420-Lab\\src\\CSE420Lab02\\input.txt");
+        File f = new File("E:\\workspaces\\CSE420-Lab\\src\\CSE420Lab02\\input_lab02.txt");
         Scanner sc = new Scanner(f);
         String s = "";
 
@@ -22,7 +22,7 @@ public class lab02 {
 
             String s2 = s.substring(4);
 
-            //Conditions for checking valid web address
+            // Conditions for checking valid web address
             if (s.length() > 8 && s.startsWith("www.") && s2.contains(".")) {
                 for (int i = 4; i < s.length(); i++) {
                     int t = (int) (s.charAt(i));
@@ -36,7 +36,7 @@ public class lab02 {
                         System.out.println("Invalid web address_a, " + pCount);
                         break;
                     } else if ((t > 96 && t < 123) || (t > 47 && t < 58)) {
-                        //Letter and number
+                        // Letter and number
                         continue;
                     } else if (t == 46) {
                         if (p == 46) {
