@@ -193,13 +193,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.task01a">
-    <configuration name="lab03 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CSE420Lab03.lab03" />
+  <component name="RunManager" selected="Application.lab02">
+    <configuration name="lab02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CSE420Lab02.lab02" />
       <module name="CSE420-Lab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CSE420Lab03.*" />
+          <option name="PATTERN" value="CSE420Lab02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -207,12 +207,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lab03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="backup.lab03" />
+    <configuration name="lab03 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CSE420Lab03.lab03" />
       <module name="CSE420-Lab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="backup.*" />
+          <option name="PATTERN" value="CSE420Lab03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -261,11 +261,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.lab02" />
         <item itemvalue="Application.task01a" />
         <item itemvalue="Application.task01" />
         <item itemvalue="Application.lexicalAnalysis" />
         <item itemvalue="Application.lab03 (1)" />
-        <item itemvalue="Application.lab03" />
       </list>
     </recent_temporary>
   </component>
