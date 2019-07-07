@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a7ed1a8-af12-4155-a086-ed5936bf788a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/LabQuiz01/LabQuiz01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LabQuiz01/LabQuiz01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LabQuiz01/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/LabQuiz01/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CSE420Lab03/lab03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSE420Lab03/lab03.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,7 +16,29 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CSE420Lab03/lab03.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="643">
+              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CSE420Lab03/input_lab03.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -77,7 +99,6 @@
         <option value="$PROJECT_DIR$/src/backup/input_lab03" />
         <option value="$PROJECT_DIR$/src/CSE420Lab03/input.txt" />
         <option value="$PROJECT_DIR$/src/backup/lab03.java" />
-        <option value="$PROJECT_DIR$/src/CSE420Lab03/lab03.java" />
         <option value="$PROJECT_DIR$/src/CSE420Lab02/test01.java" />
         <option value="$PROJECT_DIR$/src/CSE420Lab01/task1.txt" />
         <option value="$PROJECT_DIR$/src/backup/lexicalanalyzer.txt" />
@@ -89,10 +110,12 @@
         <option value="$PROJECT_DIR$/src/LabQuiz01/A.java" />
         <option value="$PROJECT_DIR$/src/LabQuiz01/LabQuiz01.java" />
         <option value="$PROJECT_DIR$/src/LabQuiz01/input.txt" />
+        <option value="$PROJECT_DIR$/src/CSE420Lab03/input_lab03.txt" />
+        <option value="$PROJECT_DIR$/src/CSE420Lab03/lab03.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="296" />
     <option name="y" value="112" />
     <option name="width" value="1363" />
@@ -122,7 +145,7 @@
               <item name="CSE420-Lab" type="b2602c69:ProjectViewProjectNode" />
               <item name="CSE420-Lab" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="LabQuiz01" type="462c0819:PsiDirectoryNode" />
+              <item name="CSE420Lab03" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -165,7 +188,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LabQuiz01">
+  <component name="RunManager" selected="Application.lab03">
     <configuration name="LabQuiz01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LabQuiz01.LabQuiz01" />
       <module name="CSE420-Lab" />
@@ -192,12 +215,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lexicalAnalysis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CSE420Lab01.lexicalAnalysis" />
+    <configuration name="lab03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CSE420Lab03.lab03" />
       <module name="CSE420-Lab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CSE420Lab01.*" />
+          <option name="PATTERN" value="CSE420Lab03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,8 +228,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="task01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CSE420Lab01.task01" />
+    <configuration name="lexicalAnalysis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CSE420Lab01.lexicalAnalysis" />
       <module name="CSE420-Lab" />
       <extension name="coverage">
         <pattern>
@@ -233,11 +256,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.lab03" />
         <item itemvalue="Application.LabQuiz01" />
         <item itemvalue="Application.lexicalAnalysis" />
         <item itemvalue="Application.lab02" />
         <item itemvalue="Application.task01a" />
-        <item itemvalue="Application.task01" />
       </list>
     </recent_temporary>
   </component>
@@ -273,17 +296,18 @@
       <workItem from="1561277543898" duration="8191000" />
       <workItem from="1561293358571" duration="1955000" />
       <workItem from="1561989837134" duration="2005000" />
-      <workItem from="1562486835952" duration="6683000" />
+      <workItem from="1562486835952" duration="7640000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42558000" />
+    <option name="totallyTimeSpent" value="43515000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="296" y="112" width="1363" height="759" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19339985" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13432837" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -292,7 +316,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.3370607" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.22860238" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -428,13 +452,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CSE420Lab03/input_lab03.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CSE420Lab01/task01a.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
@@ -449,16 +466,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-357">
           <caret line="42" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CSE420Lab03/lab03.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -507,6 +514,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CSE420Lab03/input_lab03.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CSE420Lab03/lab03.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="643">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
