@@ -12,7 +12,8 @@ public void add()
 {
 return x+y;
 }
-public static void main(String[]args) {
+public static void main(String[]args)
+{
 System.out.println(subtract(10,5));
 A a=new A();
 a.add(20,10);

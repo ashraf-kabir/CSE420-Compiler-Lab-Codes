@@ -22,7 +22,7 @@ public class LabQuiz01 {
 
                 if (str2.contains(".") || str2.contains(("=")) || str2.contains("if")
                         || str2.contains("else") || str2.contains("for") || str2.contains("while")) {
-                    // checking if it is loop, condition or function
+                    // checking whether it is loop, condition or function
 
                 } else if (str2.contains("(") && str2.contains(")")) {
                     // for checking any parentheses
@@ -31,7 +31,7 @@ public class LabQuiz01 {
                         try {
                             x.push(token.nextToken());
                         } catch (Exception e) {
-                            System.out.println("Dead  >  " + e);
+                            System.out.println(e);
                         }
                     }
                 } else {
@@ -60,6 +60,7 @@ public class LabQuiz01 {
                         System.out.println(e);
                     }
                 }
+
             }
 
         } catch (Exception e) {
