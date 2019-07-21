@@ -31,6 +31,7 @@ public class lab02 {
                         p = (int) (s.charAt(i + 1));
                     }
 
+                    // 46 means dot
                     if ((int) (s.charAt(4)) == 46) {
                         pCount++;
                         System.out.println("Invalid web address_a, " + pCount);
