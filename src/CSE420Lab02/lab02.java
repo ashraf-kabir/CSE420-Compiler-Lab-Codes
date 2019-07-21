@@ -60,7 +60,7 @@ public class lab02 {
                     } else if (t == 64) {
                         pCount++;
                         System.out.println("Invalid web address or email id_x, " + pCount);
-                        // if there is any unsupported character middle of the domain name. ex: www.something@somewhere.com
+                        // if there is any unsupported character in the middle of the domain name. ex: www.something@somewhere.com
                         break;
                     }
                 }
