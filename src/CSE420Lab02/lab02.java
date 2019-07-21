@@ -65,7 +65,7 @@ public class lab02 {
                     }
                 }
             } else if (s.contains("@") && s.contains(".")) {
-                //Conditions for checking valid mail id
+                //Conditions for checking valid email id
                 if ((n > 96 && n < 123)) {
                     for (int i = 0; i < s.length(); i++) {
                         int t = (int) (s.charAt(i));
@@ -78,6 +78,7 @@ public class lab02 {
                             // Letter, number and dot
                             continue;
                         } else if (t == 64) {
+                            // for checking '@' at the middle
                             if (p == 46 || p == 64) {
                                 pCount++;
                                 System.out.println("Invalid email id_a, " + pCount);
