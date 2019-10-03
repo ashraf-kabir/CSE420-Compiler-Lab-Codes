@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a7ed1a8-af12-4155-a086-ed5936bf788a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LabFinal/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LabFinal/task01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CSE420Lab01/lexicalAnalysis.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -214,6 +211,8 @@
       <workItem from="1563693707663" duration="8236000" />
       <workItem from="1563983687143" duration="47000" />
       <workItem from="1564303974110" duration="3358000" />
+      <workItem from="1568833323645" duration="74000" />
+      <workItem from="1568835349719" duration="283000" />
     </task>
     <servers />
   </component>
@@ -225,7 +224,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
