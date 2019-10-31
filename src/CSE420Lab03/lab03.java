@@ -2,6 +2,7 @@ package CSE420Lab03;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.net.URL;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
@@ -9,7 +10,8 @@ public class lab03 {
 
     public static void main(String[] args) throws FileNotFoundException {
 
-        File f = new File("E:\\workspaces\\CSE420-Lab\\src\\CSE420Lab03\\input_lab03.txt");
+        URL url = lab03.class.getResource("input_lab03.txt");
+        File f = new File(url.getPath());
         Scanner sc = new Scanner(f);
         String s = sc.next();
         int n = ((int) (s.charAt(0))) - 48;   //Number of regular expression

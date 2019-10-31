@@ -2,15 +2,17 @@ package CSE420Lab02;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.net.URL;
 import java.util.Scanner;
 
 public class lab02 {
 
     public static void main(String[] args) throws FileNotFoundException {
 
-        File f = new File("E:\\workspaces\\CSE420-Lab\\src\\CSE420Lab02\\input_lab02.txt");
+        URL url = lab02.class.getResource("input_lab02.txt");
+        File f = new File(url.getPath());
         Scanner sc = new Scanner(f);
-        String s = "";
+        String s;
 
         int pCount = 0;  // for counting and printing the line number
 

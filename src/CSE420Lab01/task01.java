@@ -184,7 +184,7 @@ public class task01 {
         String line;
 
         try {
-            br = new BufferedReader(new FileReader("src\\CSE420Lab01\\" + fileName + ".txt"));
+            br = new BufferedReader(new FileReader("src/CSE420Lab01/" + fileName + ".txt"));
             while ((line = br.readLine()) != null) {
                 checker(line);
             }
@@ -195,7 +195,7 @@ public class task01 {
 
     // main function
     public static void main(String[] args) {
-        readFromFile("task1");
+        readFromFile("input");
         printFunc("Keywords", keySet);
         printFunc("Identifiers", idSet);
         printFunc("Math Operators", mathOpSet);

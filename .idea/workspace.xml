@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="4a7ed1a8-af12-4155-a086-ed5936bf788a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CSE420Lab01/task01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSE420Lab01/task01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CSE420Lab02/lab02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSE420Lab02/lab02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CSE420Lab03/lab03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSE420Lab03/lab03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CSE420Lab04akaLabQuiz01/LabQuiz01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSE420Lab04akaLabQuiz01/LabQuiz01.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -124,21 +128,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lab03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CSE420Lab03.lab03" />
-      <module name="CSE420-Lab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CSE420Lab03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="lexicalAnalysis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CSE420Lab01.lexicalAnalysis" />
+    <configuration name="task01 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CSE420Lab01.task01" />
       <module name="CSE420-Lab" />
       <extension name="coverage">
         <pattern>
@@ -163,13 +154,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="task01a" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CSE420Lab01.task01a" />
+      <module name="CSE420-Lab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CSE420Lab01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.task01" />
-        <item itemvalue="Application.lab03" />
-        <item itemvalue="Application.lexicalAnalysis" />
-        <item itemvalue="Application.lab02" />
         <item itemvalue="Application.LabQuiz01" />
+        <item itemvalue="Application.task01a" />
+        <item itemvalue="Application.task01 (1)" />
+        <item itemvalue="Application.lab02" />
       </list>
     </recent_temporary>
   </component>
@@ -213,6 +217,7 @@
       <workItem from="1564303974110" duration="3358000" />
       <workItem from="1568833323645" duration="74000" />
       <workItem from="1568835349719" duration="283000" />
+      <workItem from="1572541308766" duration="1151000" />
     </task>
     <servers />
   </component>

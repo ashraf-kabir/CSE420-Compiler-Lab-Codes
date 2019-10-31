@@ -1,6 +1,7 @@
 package CSE420Lab04akaLabQuiz01;
 
 import java.io.File;
+import java.net.URL;
 import java.util.Scanner;
 import java.util.Stack;
 import java.util.StringTokenizer;
@@ -10,7 +11,9 @@ public class LabQuiz01 {
     public static void main(String[] args) {
 
         try {
-            File f = new File("E:\\workspaces\\CSE420-Lab\\src\\CSE420Lab04akaLabQuiz01\\input.txt");
+            URL url = LabQuiz01.class.getResource("input.txt");
+            File f = new File(url.getPath());
+            //File f = new File("E:\\workspaces\\CSE420-Lab\\src\\CSE420Lab04akaLabQuiz01\\input.txt");
             Scanner sc = new Scanner(f);
 
             System.out.println("Methods:");

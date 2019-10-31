@@ -1,6 +1,7 @@
 package LabFinal;
 
 import java.io.*;
+import java.net.URL;
 import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
@@ -13,7 +14,9 @@ public class task01 {
 
         HashSet<String> num = new HashSet<String>();
 
-        File f = new File("E:\\workspaces\\CSE420-Lab\\src\\LabFinal\\input.txt");
+        URL url = task01.class.getResource("input.txt");
+        File f = new File(url.getPath());
+        //File f = new File("E:\\workspaces\\CSE420-Lab\\src\\LabFinal\\input.txt");
         Scanner sc = new Scanner(f);
         String s = sc.next();
         int n = ((int) (s.charAt(0))) - 48;   //Number of regular expression
